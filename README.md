@@ -69,7 +69,8 @@ Paste the following pin definitions:
    #define VSYNC_GPIO_NUM 38 
    #define HREF_GPIO_NUM 47 
    #define PCLK_GPIO_NUM 13 
-   #define LED_GPIO_NUM -1 // Set to real pin if LED exists eg 21 #endif  </pre>
+   #define LED_GPIO_NUM -1 // Set to real pin if LED exists eg 21 
+   #endif  </pre>
 
 7. Upload the Sketch
     Go to Tools > Port and select the correct /dev/ttyACM* or COM* port.
